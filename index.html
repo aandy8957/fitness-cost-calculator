@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>健身成本計算器</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- 圓形圖片 -->
+    <img src="https://i.meee.com.tw/ABoxlwn.png" alt="圓形圖片" class="circle-img">
+
+    <h1>健身成本計算器</h1>
+    <p>總金額：<span id="total"></span></p>
+    <p>點擊次數：<span id="count">0</span></p>
+    <p>目前成本：<span id="cost">0</span></p>
+
+    <div class="btn-group">
+      <button id="calcBtn">每日簽到</button>
+      <button id="addBtn">+</button>
+      <button id="minusBtn">-</button>
+      <button id="resetBtn">重置</button>
+    </div>
+<!-- 小描述 -->
+    <p class="note">一般情況請點選每日簽到即可，每多運動一小時可加一次，點擊「重置」會將點擊次數與成本歸零。</p>
+  </div>
+    
+
+
+  <script src="script.js"></script>
+</body>
+</html>
